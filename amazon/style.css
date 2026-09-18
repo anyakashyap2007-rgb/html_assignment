@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.navbar {
+    height: 65px;
+    background-color: #131921;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 8px 15px;
+}
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo span {
+    font-size: 18px;
+}
+
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.location small,
+.account small,
+.orders small {
+    font-size: 11px;
+    color: #ddd;
+}
+
+.location strong {
+    font-size: 14px;
+}
+
+
+
+.search {
+    height: 42px;
+    flex: 1;
+
+    display: flex;
+
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search select {
+    width: 60px;
+    border: none;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+
+.search input {
+    flex: 1;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    font-size: 15px;
+}
+
+.search button {
+    width: 50px;
+    border: none;
+    background-color: #febd69;
+
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.language {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+
+.account,
+.orders {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+
+
+.cart {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+
+
+.subnav {
+    height: 40px;
+
+    background-color: #232f3e;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding: 0 20px;
+
+    font-size: 14px;
+}
+
+.subnav div {
+    cursor: pointer;
+}
+
+.subnav div:hover {
+    border: 1px solid white;
+    padding: 8px;
+}
